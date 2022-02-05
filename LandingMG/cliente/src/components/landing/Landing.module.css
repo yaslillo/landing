@@ -1,0 +1,158 @@
+.container {
+    display: flex;
+    width: 1200px;
+    flex-direction: column;
+  }
+  
+.menu {
+  margin-right: 10%;
+  margin-left: 10%;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
+
+.menu2 {
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  margin-left: auto
+  
+}
+
+.menu2 h3{
+margin-left: 10px;
+  
+}
+
+.container1{
+margin-top: 10%;
+margin-bottom: 10%;
+display: flex;
+flex-direction: row;
+}
+
+.containerDiv{
+display: flex;
+flex-direction:column;
+}
+
+.simg1{
+  position: relative;
+width: 200px;
+height: 300px;
+margin-left: 30%;
+margin-right: 2%;
+
+}
+ 
+.simg8{
+  margin-top: 5%;
+position: relative;
+width: 200px;
+height: 70px;
+
+
+}
+
+.container2{
+display: flex;
+flex-direction:row;
+margin-top: 6%;
+margin-bottom: 6%;
+
+}
+
+.container2 div{
+margin-right: 10%;
+margin-left: 20%;
+align-content: center;
+
+}
+
+.container4{
+ display: flex;
+flex-direction: column;
+}
+
+.simg6{
+width: 300px;
+height: 200px;
+margin-left: 37%;
+}
+
+.form {
+    height: min-content;
+    border-radius: 1em;
+    width: 600px;
+    padding: 40px;
+    margin: 50px auto;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+  }
+  .formGroup{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form div{
+    margin-bottom: 2%;
+  }
+  
+  .formName{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+
+  }
+  
+  .form legend{
+    font-size: 1.8em;
+    font-weight: 700;
+    margin-bottom: 25px;
+  }
+  
+  .form label {
+      margin-bottom: 10px;
+      font-size: 1.2em;
+      font-weight: 700;
+      text-align: left;
+    }
+    .form input {
+      
+      border: 1px solid black;
+      padding: 8px 0.5px;
+      font-size: 1.2em;
+      color: rgb(8, 2, 19);
+      width: 100%;
+    }
+    
+    .btn{
+      display: flex;
+      flex-direction: row;
+      margin-left: 42%;
+      margin-bottom: 7%;
+    }
+
+   .btn1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100px;
+    height: 30px;
+    background-color:rgb(49, 82, 16);
+    color: white;
+    font-size: large;
+  } 
+  .btn2{
+    width: 100px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:darkcyan;
+    color: white;
+    font-size: large;
+  } 
