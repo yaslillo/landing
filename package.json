@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "build": "cd /client && npm install && npm run build",
+    "build": "cd ./client && npm install && npm run build",
     "start:local": "nodemon -L",
     "test": "mocha -w ./tests/**/*.spec.js",
     "prettier:api": "npx prettier --write ."
