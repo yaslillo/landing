@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "start:dev": "nodemon -L",
     "build": "cd ./client && npm install && npm run build",
-    "test": "mocha -w ./tests/**/*.spec.js"
+    "start:local": "nodemon -L",
+    "test": "mocha -w ./tests/**/*.spec.js",
+    "prettier:api": "npx prettier --write ."
   },
   "author": "",
   "license": "ISC",
