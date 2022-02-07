@@ -38,7 +38,7 @@ export default function Landing() {
      const handleSubmit = async (e) => {
         e.preventDefault();
         console.log('este es el input del handle', input)
-        const res = await fetch('http://localhost:3001/user', {
+        const res = await fetch('/user', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
